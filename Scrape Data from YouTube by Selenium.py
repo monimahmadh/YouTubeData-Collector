@@ -44,4 +44,4 @@ for video in videos:
 data_frame = pd.DataFrame(data)
 
 # Save the DataFrame to a CSV file
-data_frame.to_csv("sample_data.csv", index=False, index_label=False)
+data_frame.to_csv("information of every video on this channel.csv", index=False, index_label=False)
